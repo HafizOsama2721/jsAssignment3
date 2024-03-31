@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header, footer {
+    background-color: #1d3557;
+}
+
+
+#originalTextBox {
+
+    background-color: #1d3557;
+
+}
+
+
+
+#buttons button{
+    min-width: 45%;
+}
+
+#output {
+    min-height: 207.33px;
+}
+
+
+
+
+
+@media only screen and (max-width:576px){
+    #buttons button{
+        min-width: 90%;
+    }
+}
